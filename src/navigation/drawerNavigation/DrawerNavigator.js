@@ -54,7 +54,7 @@ export default createDrawerNavigator({
   },
 },
 {
-  drawerPosition :"left",
+  drawerPosition :"right",
   contentComponent:CustomDrawerComponent
 
 });  

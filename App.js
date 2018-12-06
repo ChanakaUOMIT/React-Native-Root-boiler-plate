@@ -24,9 +24,9 @@ export default class App extends Component{
 }
 
 const AppStackNavigator = createStackNavigator({  
-  // Login:{
-  //   screen:Login
-  // },
+  Login:{
+    screen:Login
+  },
 
   // ForgotPassword:{
   //   screen:ForgotPassword

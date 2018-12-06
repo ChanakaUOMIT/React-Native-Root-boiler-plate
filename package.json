@@ -7,6 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "native-base": "^2.8.1",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
     "react-native-vector-icons": "^6.1.0",
