@@ -32,7 +32,7 @@ export default createDrawerNavigator({
   DrawerScreen1: {
     screen: DrawerScreen1,
     navigationOptions: {
-      drawerLabel: 'Profile',
+      drawerLabel: 'DrawerScreen1',
       drawerIcon: ({ tintColor }) => <Icon name="user-circle" size={17} />,
     }
   },
@@ -40,7 +40,7 @@ export default createDrawerNavigator({
   DrawerScreen2: {
     screen: DrawerScreen2,
     navigationOptions: {
-      drawerLabel: 'Profile',
+      drawerLabel: 'DrawerScreen2',
       drawerIcon: ({ tintColor }) => <Icon name="user-circle" size={17} />,
     }
   },
@@ -48,7 +48,7 @@ export default createDrawerNavigator({
   DrawerScreen3: {
     screen: DrawerScreen3,
     navigationOptions: {
-      drawerLabel: 'Profile',
+      drawerLabel: 'DrawerScreen3',
       drawerIcon: ({ tintColor }) => <Icon name="user-circle" size={17} />,
     }
   },
