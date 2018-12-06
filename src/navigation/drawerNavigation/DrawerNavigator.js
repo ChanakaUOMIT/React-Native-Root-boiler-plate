@@ -6,12 +6,12 @@ import TabNavigator from '../tabNavigation/TabNavigator'
 import DrawerScreen1 from '../../screens/drawerScreen/DrawerScreen1'
 import DrawerScreen2 from '../../screens/drawerScreen/DrawerScreen2'
 import DrawerScreen3 from '../../screens/drawerScreen/DrawerScreen3'
-import { Right } from 'native-base';
+// import { Right } from 'native-base';
 
 const CustomDrawerComponent = (props)=>(
   <SafeAreaView>
       <View style={{height:150, backgroundColor:'white', alignItems:'center', justifyContent:'center'}}>
-          <Image source={require('../../../Images/user.jpg')} style={{height:120, width:120, borderRadius:60}} />
+          <Image source={require('../../Images/user.jpg')} style={{height:120, width:120, borderRadius:60}} />
       </View>
       <ScrollView>
           <DrawerItems {...props} />
