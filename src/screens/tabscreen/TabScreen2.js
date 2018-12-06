@@ -4,6 +4,7 @@ import {View,
     StyleSheet,
     TouchableOpacity,
 } from 'react-native';
+import CustomHeader from '../../components/Header/Header';
  
 class TabScreen2 extends Component{
 constructor(props){
@@ -12,7 +13,12 @@ constructor(props){
 } 
      render(){
         return(
-            <View style={styles.container}> 
+            <View> 
+                <CustomHeader 
+                    title="TabScreen2"
+                    openDrawer={() => this.props.navigation.openDrawer()}
+                    iconName="md-checkmark-circle"
+                />
                 <Text> TabScreen2 </Text>
              </View>
          )

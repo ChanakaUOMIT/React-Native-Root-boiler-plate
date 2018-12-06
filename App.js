@@ -13,6 +13,7 @@ import { createStackNavigator } from 'react-navigation';
 import Login from './src/authScreen/login/Login';
 import ForgotPassword from './src/authScreen/forgotPassword/ForgotPassword';
 import TabNavigator from './src/navigation/tabNavigation/TabNavigator';
+import DrawerNavigator from './src/navigation/drawerNavigation/DrawerNavigator';
 
 export default class App extends Component{
   render() {
@@ -23,17 +24,22 @@ export default class App extends Component{
 }
 
 const AppStackNavigator = createStackNavigator({  
-  // Login:{
-  //   screen:Login
-  // },
+  Login:{
+    screen:Login
+  },
 
   // ForgotPassword:{
   //   screen:ForgotPassword
   // },
   
-  TabNav:{
-    screen:TabNavigator
+  // TabNav:{
+  //   screen:TabNavigator
+  // },
+
+  DrewerNav:{
+    screen:DrawerNavigator
   }
+
 
 },
     navigationOptions={
