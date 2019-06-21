@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
-import CustomHeader from "./../../components/Header/Header";
+import CustomHeader from "../../components/Header/Header";
 
-class DrawerScreen2 extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
   }
@@ -10,18 +10,17 @@ class DrawerScreen2 extends Component {
     return (
       <View>
         <CustomHeader
-          title="Discussion Feed"
+          title="TabScreen2"
           openDrawer={() => this.props.navigation.openDrawer()}
           iconName="md-checkmark-circle"
         />
-
-        <Text> Discussion Feed </Text>
+        <Text> Home </Text>
       </View>
     );
   }
 }
 
-export default DrawerScreen2;
+export default Home;
 
 const styles = StyleSheet.create({
   container: {
