@@ -9,14 +9,14 @@
   "dependencies": {
     "native-base": "^2.8.1",
     "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.4",
+    "react-native": "0.57.8",
     "react-native-material-menu": "^0.6.2",
     "react-native-vector-icons": "^6.1.0",
     "react-navigation": "^2.18.3"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
-    "jest": "23.6.0",
+    "jest": "29.3.1",
     "metro-react-native-babel-preset": "0.50.0",
     "react-test-renderer": "16.6.0-alpha.8af6728"
   },
